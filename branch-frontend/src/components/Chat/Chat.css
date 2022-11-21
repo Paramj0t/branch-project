@@ -1,0 +1,79 @@
+.chat {
+	flex-grow: 1;
+	overflow-y: scroll;
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+.chat__header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px;
+	border: 1px solid lightgray;
+	position: fixed;
+	width: 97%;
+	outline: none;
+	background-color: rgb(255, 255, 255);
+	top: 60px;
+	color: #ea4c89;
+}
+
+.chat__ticketName {
+	display: flex;
+}
+
+.chat__ticketName > .MuiSvgIcon-root {
+	margin-left: 10px;
+	font-size: 18px;
+}
+
+.chat__headerRight {
+	margin-right: 20px;
+}
+
+.chat__headerRight > button {
+	background-color: #ea4c89;
+	border-radius: 8px;
+	border-style: none;
+	box-sizing: border-box;
+	color: #ffffff;
+	cursor: pointer;
+	display: inline-block;
+	font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+		sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+	height: 40px;
+	line-height: 20px;
+	list-style: none;
+	margin: 0;
+	outline: none;
+	padding: 10px 16px;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	transition: color 100ms;
+	vertical-align: baseline;
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+}
+
+.chat__headerRight > button:hover,
+.chat__headerRight > button:focus {
+	background-color: #f082ac;
+}
+
+.chat__messages {
+	padding: 0 10% 150px 100px;
+}
+
+.chat__closed {
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	bottom: 30px;
+	width: 100%;
+	color: red;
+}
