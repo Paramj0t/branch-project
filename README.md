@@ -18,10 +18,11 @@ This project was created using React, Node.js, Express, MongoDB, and Material-UI
 
 ## Features
 
-- Agent can chat with the customer.
-- Agent can close the ticket.
-- Authentication is provided.
-- The application can be connected to android App.
+- Ticket Number, User Name, Customer Query, Time at which ticket is created and status will be displayed to the agent.
+- Agent can chat with the customer on clicking the ticket.
+- Agent can close the ticket after the query is resolved.
+- Authentication is provided with help of firebase.
+- The application can be connected to android App using APIs.
 
 ## Run it locally
 
@@ -29,5 +30,5 @@ This project was created using React, Node.js, Express, MongoDB, and Material-UI
 2. Go into branch-frontend run - npm install.
 3. Go into branch-backend run - npm install.
 4. Provide your credentials of mongoDB, firebase and Pusher as mention in .env_samples in your .env file.
-5. Go into branch-frontend run - npm start to run the frontend and then view http://localhost:3000/login.
-6. Go into branch-backend run - node server.js to run the backend of the application.
+5. Go into branch-backend run - node server.js to run the backend of the application.
+6. Go into branch-frontend run - npm start to run the frontend and then view http://localhost:3000/login.
