@@ -28,6 +28,6 @@ This project was created using React, Node.js, Express, MongoDB, and Material-UI
 1. Clone the repo on your system.
 2. Go into branch-frontend run - npm install.
 3. Go into branch-backend run - npm install.
-4. Provide your credentials as mention in .env_samples in your .env file.
+4. Provide your credentials of mongoDB, firebase and Pusher as mention in .env_samples in your .env file.
 5. Go into branch-frontend run - npm start to run the frontend and then view http://localhost:3000/login.
 6. Go into branch-backend run - node server.js to run the backend of the application.
